@@ -8,6 +8,7 @@ gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
 gem 'sqlite3'
 
 gem 'gravatar_image_tag', '1.0.0.pre2'
+gem 'will_paginate', '3.0.pre2'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -21,6 +22,7 @@ gem 'jquery-rails'
 
 group :development do
   gem 'rspec-rails', '2.6.1'
+  gem 'faker', '0.3.1'
 end
 
 group :test do
